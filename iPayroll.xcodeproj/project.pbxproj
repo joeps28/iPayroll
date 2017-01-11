@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCF3C9F51E2691FC008AC253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3C9F41E2691FC008AC253 /* AppDelegate.swift */; };
+		CCF3C9F71E2691FC008AC253 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3C9F61E2691FC008AC253 /* ViewController.swift */; };
+		CCF3C9FA1E2691FC008AC253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF3C9F81E2691FC008AC253 /* Main.storyboard */; };
+		CCF3C9FC1E2691FC008AC253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF3C9FB1E2691FC008AC253 /* Assets.xcassets */; };
+		CCF3C9FF1E2691FC008AC253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF3C9FD1E2691FC008AC253 /* LaunchScreen.storyboard */; };
+		CCF3CA0A1E2691FC008AC253 /* iPayrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3CA091E2691FC008AC253 /* iPayrollTests.swift */; };
+		CCF3CA151E2691FC008AC253 /* iPayrollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3CA141E2691FC008AC253 /* iPayrollUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCF3CA061E2691FC008AC253 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF3C9E91E2691FC008AC253 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF3C9F01E2691FC008AC253;
+			remoteInfo = iPayroll;
+		};
+		CCF3CA111E2691FC008AC253 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF3C9E91E2691FC008AC253 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF3C9F01E2691FC008AC253;
+			remoteInfo = iPayroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCF3C9F11E2691FC008AC253 /* iPayroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPayroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF3C9F41E2691FC008AC253 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCF3C9F61E2691FC008AC253 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCF3C9F91E2691FC008AC253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCF3C9FB1E2691FC008AC253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCF3C9FE1E2691FC008AC253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCF3CA001E2691FC008AC253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF3CA051E2691FC008AC253 /* iPayrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPayrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF3CA091E2691FC008AC253 /* iPayrollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPayrollTests.swift; sourceTree = "<group>"; };
+		CCF3CA0B1E2691FC008AC253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF3CA101E2691FC008AC253 /* iPayrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPayrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF3CA141E2691FC008AC253 /* iPayrollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPayrollUITests.swift; sourceTree = "<group>"; };
+		CCF3CA161E2691FC008AC253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF3C9EE1E2691FC008AC253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF3CA021E2691FC008AC253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF3CA0D1E2691FC008AC253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCF3C9E81E2691FC008AC253 = {
+			isa = PBXGroup;
+			children = (
+				CCF3C9F31E2691FC008AC253 /* iPayroll */,
+				CCF3CA081E2691FC008AC253 /* iPayrollTests */,
+				CCF3CA131E2691FC008AC253 /* iPayrollUITests */,
+				CCF3C9F21E2691FC008AC253 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF3C9F21E2691FC008AC253 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3C9F11E2691FC008AC253 /* iPayroll.app */,
+				CCF3CA051E2691FC008AC253 /* iPayrollTests.xctest */,
+				CCF3CA101E2691FC008AC253 /* iPayrollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF3C9F31E2691FC008AC253 /* iPayroll */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3C9F41E2691FC008AC253 /* AppDelegate.swift */,
+				CCF3C9F61E2691FC008AC253 /* ViewController.swift */,
+				CCF3C9F81E2691FC008AC253 /* Main.storyboard */,
+				CCF3C9FB1E2691FC008AC253 /* Assets.xcassets */,
+				CCF3C9FD1E2691FC008AC253 /* LaunchScreen.storyboard */,
+				CCF3CA001E2691FC008AC253 /* Info.plist */,
+			);
+			path = iPayroll;
+			sourceTree = "<group>";
+		};
+		CCF3CA081E2691FC008AC253 /* iPayrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3CA091E2691FC008AC253 /* iPayrollTests.swift */,
+				CCF3CA0B1E2691FC008AC253 /* Info.plist */,
+			);
+			path = iPayrollTests;
+			sourceTree = "<group>";
+		};
+		CCF3CA131E2691FC008AC253 /* iPayrollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3CA141E2691FC008AC253 /* iPayrollUITests.swift */,
+				CCF3CA161E2691FC008AC253 /* Info.plist */,
+			);
+			path = iPayrollUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF3C9F01E2691FC008AC253 /* iPayroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF3CA191E2691FC008AC253 /* Build configuration list for PBXNativeTarget "iPayroll" */;
+			buildPhases = (
+				CCF3C9ED1E2691FC008AC253 /* Sources */,
+				CCF3C9EE1E2691FC008AC253 /* Frameworks */,
+				CCF3C9EF1E2691FC008AC253 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPayroll;
+			productName = iPayroll;
+			productReference = CCF3C9F11E2691FC008AC253 /* iPayroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCF3CA041E2691FC008AC253 /* iPayrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF3CA1C1E2691FC008AC253 /* Build configuration list for PBXNativeTarget "iPayrollTests" */;
+			buildPhases = (
+				CCF3CA011E2691FC008AC253 /* Sources */,
+				CCF3CA021E2691FC008AC253 /* Frameworks */,
+				CCF3CA031E2691FC008AC253 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF3CA071E2691FC008AC253 /* PBXTargetDependency */,
+			);
+			name = iPayrollTests;
+			productName = iPayrollTests;
+			productReference = CCF3CA051E2691FC008AC253 /* iPayrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCF3CA0F1E2691FC008AC253 /* iPayrollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF3CA1F1E2691FC008AC253 /* Build configuration list for PBXNativeTarget "iPayrollUITests" */;
+			buildPhases = (
+				CCF3CA0C1E2691FC008AC253 /* Sources */,
+				CCF3CA0D1E2691FC008AC253 /* Frameworks */,
+				CCF3CA0E1E2691FC008AC253 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF3CA121E2691FC008AC253 /* PBXTargetDependency */,
+			);
+			name = iPayrollUITests;
+			productName = iPayrollUITests;
+			productReference = CCF3CA101E2691FC008AC253 /* iPayrollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF3C9E91E2691FC008AC253 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Joel Pineiro";
+				TargetAttributes = {
+					CCF3C9F01E2691FC008AC253 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 68MSHLHT6V;
+						ProvisioningStyle = Automatic;
+					};
+					CCF3CA041E2691FC008AC253 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 68MSHLHT6V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCF3C9F01E2691FC008AC253;
+					};
+					CCF3CA0F1E2691FC008AC253 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 68MSHLHT6V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCF3C9F01E2691FC008AC253;
+					};
+				};
+			};
+			buildConfigurationList = CCF3C9EC1E2691FC008AC253 /* Build configuration list for PBXProject "iPayroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCF3C9E81E2691FC008AC253;
+			productRefGroup = CCF3C9F21E2691FC008AC253 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF3C9F01E2691FC008AC253 /* iPayroll */,
+				CCF3CA041E2691FC008AC253 /* iPayrollTests */,
+				CCF3CA0F1E2691FC008AC253 /* iPayrollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF3C9EF1E2691FC008AC253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF3C9FF1E2691FC008AC253 /* LaunchScreen.storyboard in Resources */,
+				CCF3C9FC1E2691FC008AC253 /* Assets.xcassets in Resources */,
+				CCF3C9FA1E2691FC008AC253 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF3CA031E2691FC008AC253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF3CA0E1E2691FC008AC253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF3C9ED1E2691FC008AC253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF3C9F71E2691FC008AC253 /* ViewController.swift in Sources */,
+				CCF3C9F51E2691FC008AC253 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF3CA011E2691FC008AC253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF3CA0A1E2691FC008AC253 /* iPayrollTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF3CA0C1E2691FC008AC253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF3CA151E2691FC008AC253 /* iPayrollUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCF3CA071E2691FC008AC253 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF3C9F01E2691FC008AC253 /* iPayroll */;
+			targetProxy = CCF3CA061E2691FC008AC253 /* PBXContainerItemProxy */;
+		};
+		CCF3CA121E2691FC008AC253 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF3C9F01E2691FC008AC253 /* iPayroll */;
+			targetProxy = CCF3CA111E2691FC008AC253 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCF3C9F81E2691FC008AC253 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF3C9F91E2691FC008AC253 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCF3C9FD1E2691FC008AC253 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF3C9FE1E2691FC008AC253 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCF3CA171E2691FC008AC253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCF3CA181E2691FC008AC253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF3CA1A1E2691FC008AC253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68MSHLHT6V;
+				INFOPLIST_FILE = iPayroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoelPineiro.iPayroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CCF3CA1B1E2691FC008AC253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68MSHLHT6V;
+				INFOPLIST_FILE = iPayroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoelPineiro.iPayroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CCF3CA1D1E2691FC008AC253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 68MSHLHT6V;
+				INFOPLIST_FILE = iPayrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoelPineiro.iPayrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPayroll.app/iPayroll";
+			};
+			name = Debug;
+		};
+		CCF3CA1E1E2691FC008AC253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 68MSHLHT6V;
+				INFOPLIST_FILE = iPayrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoelPineiro.iPayrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPayroll.app/iPayroll";
+			};
+			name = Release;
+		};
+		CCF3CA201E2691FC008AC253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 68MSHLHT6V;
+				INFOPLIST_FILE = iPayrollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoelPineiro.iPayrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iPayroll;
+			};
+			name = Debug;
+		};
+		CCF3CA211E2691FC008AC253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 68MSHLHT6V;
+				INFOPLIST_FILE = iPayrollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoelPineiro.iPayrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iPayroll;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF3C9EC1E2691FC008AC253 /* Build configuration list for PBXProject "iPayroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF3CA171E2691FC008AC253 /* Debug */,
+				CCF3CA181E2691FC008AC253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF3CA191E2691FC008AC253 /* Build configuration list for PBXNativeTarget "iPayroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF3CA1A1E2691FC008AC253 /* Debug */,
+				CCF3CA1B1E2691FC008AC253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCF3CA1C1E2691FC008AC253 /* Build configuration list for PBXNativeTarget "iPayrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF3CA1D1E2691FC008AC253 /* Debug */,
+				CCF3CA1E1E2691FC008AC253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCF3CA1F1E2691FC008AC253 /* Build configuration list for PBXNativeTarget "iPayrollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF3CA201E2691FC008AC253 /* Debug */,
+				CCF3CA211E2691FC008AC253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCF3C9E91E2691FC008AC253 /* Project object */;
+}
