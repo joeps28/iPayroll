@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		CCF3C9F51E2691FC008AC253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3C9F41E2691FC008AC253 /* AppDelegate.swift */; };
-		CCF3C9F71E2691FC008AC253 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3C9F61E2691FC008AC253 /* ViewController.swift */; };
+		CCF3C9F71E2691FC008AC253 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3C9F61E2691FC008AC253 /* MainViewController.swift */; };
 		CCF3C9FA1E2691FC008AC253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF3C9F81E2691FC008AC253 /* Main.storyboard */; };
 		CCF3C9FC1E2691FC008AC253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF3C9FB1E2691FC008AC253 /* Assets.xcassets */; };
 		CCF3C9FF1E2691FC008AC253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF3C9FD1E2691FC008AC253 /* LaunchScreen.storyboard */; };
 		CCF3CA0A1E2691FC008AC253 /* iPayrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3CA091E2691FC008AC253 /* iPayrollTests.swift */; };
 		CCF3CA151E2691FC008AC253 /* iPayrollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3CA141E2691FC008AC253 /* iPayrollUITests.swift */; };
+		CCF3CA291E2697C3008AC253 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF3CA281E2697C3008AC253 /* CloudKit.framework */; };
+		CCF3CA2F1E26A470008AC253 /* MenuLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3CA2E1E26A470008AC253 /* MenuLauncher.swift */; };
+		CCF3CA311E27188E008AC253 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3CA301E27188E008AC253 /* MenuCell.swift */; };
+		CCF3CA331E272749008AC253 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3CA321E272749008AC253 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		CCF3C9F11E2691FC008AC253 /* iPayroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPayroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF3C9F41E2691FC008AC253 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CCF3C9F61E2691FC008AC253 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCF3C9F61E2691FC008AC253 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CCF3C9F91E2691FC008AC253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCF3C9FB1E2691FC008AC253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCF3C9FE1E2691FC008AC253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,11 @@
 		CCF3CA101E2691FC008AC253 /* iPayrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPayrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF3CA141E2691FC008AC253 /* iPayrollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPayrollUITests.swift; sourceTree = "<group>"; };
 		CCF3CA161E2691FC008AC253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF3CA221E26920F008AC253 /* iPayroll.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iPayroll.entitlements; sourceTree = "<group>"; };
+		CCF3CA281E2697C3008AC253 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		CCF3CA2E1E26A470008AC253 /* MenuLauncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuLauncher.swift; sourceTree = "<group>"; };
+		CCF3CA301E27188E008AC253 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		CCF3CA321E272749008AC253 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCF3CA291E2697C3008AC253 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +91,7 @@
 				CCF3CA081E2691FC008AC253 /* iPayrollTests */,
 				CCF3CA131E2691FC008AC253 /* iPayrollUITests */,
 				CCF3C9F21E2691FC008AC253 /* Products */,
+				CCF3CA231E269212008AC253 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +108,12 @@
 		CCF3C9F31E2691FC008AC253 /* iPayroll */ = {
 			isa = PBXGroup;
 			children = (
+				CCF3CA221E26920F008AC253 /* iPayroll.entitlements */,
 				CCF3C9F41E2691FC008AC253 /* AppDelegate.swift */,
-				CCF3C9F61E2691FC008AC253 /* ViewController.swift */,
+				CCF3CA2D1E26A3F6008AC253 /* Model */,
+				CCF3CA2C1E26A3E6008AC253 /* View */,
+				CCF3CA2A1E26A3A6008AC253 /* Controller */,
+				CCF3CA2B1E26A3C7008AC253 /* Helper */,
 				CCF3C9F81E2691FC008AC253 /* Main.storyboard */,
 				CCF3C9FB1E2691FC008AC253 /* Assets.xcassets */,
 				CCF3C9FD1E2691FC008AC253 /* LaunchScreen.storyboard */,
@@ -123,6 +138,46 @@
 				CCF3CA161E2691FC008AC253 /* Info.plist */,
 			);
 			path = iPayrollUITests;
+			sourceTree = "<group>";
+		};
+		CCF3CA231E269212008AC253 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3CA281E2697C3008AC253 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCF3CA2A1E26A3A6008AC253 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3C9F61E2691FC008AC253 /* MainViewController.swift */,
+				CCF3CA2E1E26A470008AC253 /* MenuLauncher.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CCF3CA2B1E26A3C7008AC253 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3CA321E272749008AC253 /* Extensions.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		CCF3CA2C1E26A3E6008AC253 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3CA301E27188E008AC253 /* MenuCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CCF3CA2D1E26A3F6008AC253 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +250,14 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 68MSHLHT6V;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					CCF3CA041E2691FC008AC253 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -262,7 +325,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCF3C9F71E2691FC008AC253 /* ViewController.swift in Sources */,
+				CCF3CA331E272749008AC253 /* Extensions.swift in Sources */,
+				CCF3C9F71E2691FC008AC253 /* MainViewController.swift in Sources */,
+				CCF3CA2F1E26A470008AC253 /* MenuLauncher.swift in Sources */,
+				CCF3CA311E27188E008AC253 /* MenuCell.swift in Sources */,
 				CCF3C9F51E2691FC008AC253 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -413,10 +479,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iPayroll/iPayroll.entitlements;
 				DEVELOPMENT_TEAM = 68MSHLHT6V;
 				INFOPLIST_FILE = iPayroll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JoelPineiro.iPayroll;
+				PRODUCT_BUNDLE_IDENTIFIER = XC.com.JoelPineiro.iPayroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -426,10 +494,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iPayroll/iPayroll.entitlements;
 				DEVELOPMENT_TEAM = 68MSHLHT6V;
 				INFOPLIST_FILE = iPayroll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JoelPineiro.iPayroll;
+				PRODUCT_BUNDLE_IDENTIFIER = XC.com.JoelPineiro.iPayroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
