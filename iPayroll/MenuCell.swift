@@ -24,7 +24,18 @@ class MenuCell: UICollectionViewCell {
     
     override var isHighlighted: Bool {
         didSet {
-            backgroundColor = isHighlighted ? UIColor.darkGray : UIColor.white
+            
+//            var blurView: UIVisualEffectView = UIVisualEffectView(effect: UIBlurEffect(style: .light))
+//            
+//            if isHighlighted {
+//                blurView = UIVisualEffectView(effect: UIBlurEffect(style: .dark))
+//            }
+//            
+//            blurView.frame = self.frame
+//            
+//            self.backgroundView = blurView
+            
+            //backgroundColor = isHighlighted ? UIColor.darkGray : UIColor.clear
             
             nameLabel.textColor = isHighlighted ? UIColor.white : UIColor.black
             

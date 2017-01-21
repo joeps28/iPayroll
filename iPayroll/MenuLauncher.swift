@@ -28,15 +28,23 @@ class MenuLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDelega
     let cellID = "cellID"
     
     let settings: [MenuItem] = {
-        return [MenuItem(name: "Home", imageName: "home-icon"), MenuItem(name: "History", imageName: "find-folder-22"), MenuItem(name: "Profile Settings", imageName: "boy-22"), MenuItem(name: "About", imageName: "About")]
+        return [MenuItem(name: "History", imageName: "find-folder-22"), MenuItem(name: "Profile Settings", imageName: "boy-22"), MenuItem(name: "About", imageName: "About"), MenuItem(name: "Cancel", imageName: "Cancel-icon")]
     }()
     
     let collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        cv.backgroundColor = UIColor.white
+        
+        let blurView: UIVisualEffectView = UIVisualEffectView(effect: UIBlurEffect(style: UIBlurEffectStyle.regular))
+        cv.backgroundColor = UIColor.clear
+        
+        blurView.frame = cv.frame
+        //cv.backgroundView = blurView
+        
         return cv
     }()
+    
+    var homeController: MainViewController?
     
     func showMenu() {
         if let window = UIApplication.shared.keyWindow {
@@ -53,7 +61,7 @@ class MenuLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDelega
             blackView.frame = window.frame
             blackView.alpha = 0
             
-            UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
+            UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.75, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
                 self.blackView.alpha = 1
                 
                 self.collectionView.frame = CGRect(x: 0, y: window.frame.height - self.menuBarHeight, width: window.frame.width, height: self.menuBarHeight)
@@ -63,12 +71,22 @@ class MenuLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDelega
         }
     }
     
-    func handleDismiss() {
-        UIView.animate(withDuration: 0.5) {
+    func handleDismiss(setting: MenuItem) {
+        
+        UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
+            
             self.blackView.alpha = 0
             
             if let window = UIApplication.shared.keyWindow {
                 self.collectionView.frame = CGRect(x: 0, y: window.frame.height, width: window.frame.width, height: self.menuBarHeight)
+            }
+            
+        }) { (Completed: Bool) in
+            
+            if let hc = self.homeController {
+                if setting.name != "" && setting.name != "Cancel" {
+                    hc.showControllerForSetting(setting: setting)
+                }
             }
         }
     }
@@ -79,6 +97,10 @@ class MenuLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDelega
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellID, for: indexPath) as! MenuCell
+        
+        let blurView: UIVisualEffectView = UIVisualEffectView(effect: UIBlurEffect(style: .light))
+        blurView.frame = cell.frame
+        cell.backgroundView = blurView
         
         let setting = settings[indexPath.row]
         cell.setting = setting
@@ -94,13 +116,17 @@ class MenuLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDelega
         return 0
     }
     
-    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+
+        let setting = self.settings[indexPath.item]
+        handleDismiss(setting: setting)
         
-        let setting = settings[indexPath.row] 
     }
     
     override init() {
         super.init()
+        
+        homeController = nil
         
         collectionView.dataSource = self
         collectionView.delegate = self

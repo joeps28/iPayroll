@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC4A65051E33160200DB3B8C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4A65041E33160200DB3B8C /* ProfileViewController.swift */; };
+		CC7D2F401E2C151900E211E6 /* StackElementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7D2F3F1E2C151900E211E6 /* StackElementVC.swift */; };
+		CCB82A691E3262AF00EE25AE /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB82A681E3262AF00EE25AE /* SideBar.swift */; };
+		CCB82A6B1E3262EF00EE25AE /* SideBarTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB82A6A1E3262EF00EE25AE /* SideBarTableVC.swift */; };
+		CCB82A6E1E32CCDA00EE25AE /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB82A6D1E32CCDA00EE25AE /* DesignableButton.swift */; };
+		CCB82A701E32CDCA00EE25AE /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB82A6F1E32CDCA00EE25AE /* BounceButton.swift */; };
+		CCB82A721E32D30F00EE25AE /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB82A711E32D30F00EE25AE /* GradientView.swift */; };
+		CCB82A741E330B0A00EE25AE /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB82A731E330B0A00EE25AE /* DesignableTextField.swift */; };
+		CCB82A761E330FF900EE25AE /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB82A751E330FF900EE25AE /* DesignableView.swift */; };
 		CCF3C9F51E2691FC008AC253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3C9F41E2691FC008AC253 /* AppDelegate.swift */; };
 		CCF3C9F71E2691FC008AC253 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3C9F61E2691FC008AC253 /* MainViewController.swift */; };
 		CCF3C9FA1E2691FC008AC253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF3C9F81E2691FC008AC253 /* Main.storyboard */; };
@@ -15,8 +24,6 @@
 		CCF3CA0A1E2691FC008AC253 /* iPayrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3CA091E2691FC008AC253 /* iPayrollTests.swift */; };
 		CCF3CA151E2691FC008AC253 /* iPayrollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3CA141E2691FC008AC253 /* iPayrollUITests.swift */; };
 		CCF3CA291E2697C3008AC253 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF3CA281E2697C3008AC253 /* CloudKit.framework */; };
-		CCF3CA2F1E26A470008AC253 /* MenuLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3CA2E1E26A470008AC253 /* MenuLauncher.swift */; };
-		CCF3CA311E27188E008AC253 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3CA301E27188E008AC253 /* MenuCell.swift */; };
 		CCF3CA331E272749008AC253 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3CA321E272749008AC253 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC4A65041E33160200DB3B8C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CC7D2F3F1E2C151900E211E6 /* StackElementVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackElementVC.swift; sourceTree = "<group>"; };
+		CCB82A681E3262AF00EE25AE /* SideBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
+		CCB82A6A1E3262EF00EE25AE /* SideBarTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarTableVC.swift; sourceTree = "<group>"; };
+		CCB82A6D1E32CCDA00EE25AE /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		CCB82A6F1E32CDCA00EE25AE /* BounceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
+		CCB82A711E32D30F00EE25AE /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		CCB82A731E330B0A00EE25AE /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		CCB82A751E330FF900EE25AE /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		CCF3C9F11E2691FC008AC253 /* iPayroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPayroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF3C9F41E2691FC008AC253 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCF3C9F61E2691FC008AC253 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -53,8 +69,6 @@
 		CCF3CA161E2691FC008AC253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCF3CA221E26920F008AC253 /* iPayroll.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iPayroll.entitlements; sourceTree = "<group>"; };
 		CCF3CA281E2697C3008AC253 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
-		CCF3CA2E1E26A470008AC253 /* MenuLauncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuLauncher.swift; sourceTree = "<group>"; };
-		CCF3CA301E27188E008AC253 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		CCF3CA321E272749008AC253 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +98,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CCB82A6C1E32CC9300EE25AE /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				CCB82A6D1E32CCDA00EE25AE /* DesignableButton.swift */,
+				CCB82A6F1E32CDCA00EE25AE /* BounceButton.swift */,
+				CCB82A731E330B0A00EE25AE /* DesignableTextField.swift */,
+				CCB82A711E32D30F00EE25AE /* GradientView.swift */,
+				CCB82A751E330FF900EE25AE /* DesignableView.swift */,
+			);
+			name = CustomControls;
+			sourceTree = "<group>";
+		};
 		CCF3C9E81E2691FC008AC253 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +136,7 @@
 			children = (
 				CCF3CA221E26920F008AC253 /* iPayroll.entitlements */,
 				CCF3C9F41E2691FC008AC253 /* AppDelegate.swift */,
+				CCB82A6C1E32CC9300EE25AE /* CustomControls */,
 				CCF3CA2D1E26A3F6008AC253 /* Model */,
 				CCF3CA2C1E26A3E6008AC253 /* View */,
 				CCF3CA2A1E26A3A6008AC253 /* Controller */,
@@ -152,7 +179,10 @@
 			isa = PBXGroup;
 			children = (
 				CCF3C9F61E2691FC008AC253 /* MainViewController.swift */,
-				CCF3CA2E1E26A470008AC253 /* MenuLauncher.swift */,
+				CC7D2F3F1E2C151900E211E6 /* StackElementVC.swift */,
+				CCB82A681E3262AF00EE25AE /* SideBar.swift */,
+				CCB82A6A1E3262EF00EE25AE /* SideBarTableVC.swift */,
+				CC4A65041E33160200DB3B8C /* ProfileViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -168,7 +198,6 @@
 		CCF3CA2C1E26A3E6008AC253 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CCF3CA301E27188E008AC253 /* MenuCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -327,9 +356,16 @@
 			files = (
 				CCF3CA331E272749008AC253 /* Extensions.swift in Sources */,
 				CCF3C9F71E2691FC008AC253 /* MainViewController.swift in Sources */,
-				CCF3CA2F1E26A470008AC253 /* MenuLauncher.swift in Sources */,
-				CCF3CA311E27188E008AC253 /* MenuCell.swift in Sources */,
+				CCB82A6E1E32CCDA00EE25AE /* DesignableButton.swift in Sources */,
+				CCB82A761E330FF900EE25AE /* DesignableView.swift in Sources */,
+				CCB82A6B1E3262EF00EE25AE /* SideBarTableVC.swift in Sources */,
+				CCB82A691E3262AF00EE25AE /* SideBar.swift in Sources */,
+				CC4A65051E33160200DB3B8C /* ProfileViewController.swift in Sources */,
+				CCB82A701E32CDCA00EE25AE /* BounceButton.swift in Sources */,
+				CC7D2F401E2C151900E211E6 /* StackElementVC.swift in Sources */,
+				CCB82A741E330B0A00EE25AE /* DesignableTextField.swift in Sources */,
 				CCF3C9F51E2691FC008AC253 /* AppDelegate.swift in Sources */,
+				CCB82A721E32D30F00EE25AE /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +618,7 @@
 				CCF3CA1B1E2691FC008AC253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCF3CA1C1E2691FC008AC253 /* Build configuration list for PBXNativeTarget "iPayrollTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +627,7 @@
 				CCF3CA1E1E2691FC008AC253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCF3CA1F1E2691FC008AC253 /* Build configuration list for PBXNativeTarget "iPayrollUITests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +636,7 @@
 				CCF3CA211E2691FC008AC253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
