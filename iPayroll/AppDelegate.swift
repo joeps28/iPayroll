@@ -16,8 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
+//        IQKeyboardManager.sharedManager().enable = true
+        
 //        UINavigationBar.appearance().barTintColor = UIColor(red: 0, green: 122/255, blue: 1, alpha: 1)
-//        
+        
 //        UIApplication.shared.statusBarStyle = .lightContent
         
         return true

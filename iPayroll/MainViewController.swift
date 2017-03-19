@@ -128,19 +128,17 @@ class MainViewController: UIViewController, SideBarDelegate, UIGestureRecognizer
         let sb = UIStoryboard(name: "Main", bundle: nil)
         
         if index == 0 {
-//            let vc = sb.instantiateViewController(withIdentifier: "HistoryVC")
-//            
-//            self.present(vc, animated: true, completion: nil)
+            let vc = sb.instantiateViewController(withIdentifier: "HistoryVC")
+            let navController = UINavigationController(rootViewController: vc)
+            self.present(navController, animated: true, completion: nil)            
         }
         else if index == 1 {
             let vc = sb.instantiateViewController(withIdentifier: "ProfileVC")
-            
             self.present(vc, animated: true, completion: nil)
         }
         else if index == 2 {
-//            let vc = sb.instantiateViewController(withIdentifier: "AboutVC")
-//
-//            self.present(vc, animated: true, completion: nil)
+            let vc = sb.instantiateViewController(withIdentifier: "AboutVC")
+            self.present(vc, animated: true, completion: nil)
         }
     }
         

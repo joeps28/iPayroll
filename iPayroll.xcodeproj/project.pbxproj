@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC4A65051E33160200DB3B8C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4A65041E33160200DB3B8C /* ProfileViewController.swift */; };
+		CC3D9E241E34632D00EC1FB6 /* HistoryTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D9E231E34632D00EC1FB6 /* HistoryTableVC.swift */; };
+		CC4A65051E33160200DB3B8C /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4A65041E33160200DB3B8C /* ProfileVC.swift */; };
 		CC7D2F401E2C151900E211E6 /* StackElementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7D2F3F1E2C151900E211E6 /* StackElementVC.swift */; };
 		CCB82A691E3262AF00EE25AE /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB82A681E3262AF00EE25AE /* SideBar.swift */; };
 		CCB82A6B1E3262EF00EE25AE /* SideBarTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB82A6A1E3262EF00EE25AE /* SideBarTableVC.swift */; };
@@ -16,6 +17,8 @@
 		CCB82A721E32D30F00EE25AE /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB82A711E32D30F00EE25AE /* GradientView.swift */; };
 		CCB82A741E330B0A00EE25AE /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB82A731E330B0A00EE25AE /* DesignableTextField.swift */; };
 		CCB82A761E330FF900EE25AE /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB82A751E330FF900EE25AE /* DesignableView.swift */; };
+		CCCDF88C1E7E36B5002D0898 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCDF88B1E7E36B5002D0898 /* DesignableTextView.swift */; };
+		CCCDF88E1E7E3A0D002D0898 /* AddEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCDF88D1E7E3A0D002D0898 /* AddEditVC.swift */; };
 		CCF3C9F51E2691FC008AC253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3C9F41E2691FC008AC253 /* AppDelegate.swift */; };
 		CCF3C9F71E2691FC008AC253 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3C9F61E2691FC008AC253 /* MainViewController.swift */; };
 		CCF3C9FA1E2691FC008AC253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF3C9F81E2691FC008AC253 /* Main.storyboard */; };
@@ -45,7 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CC4A65041E33160200DB3B8C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CC3D9E231E34632D00EC1FB6 /* HistoryTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableVC.swift; sourceTree = "<group>"; };
+		CC4A65041E33160200DB3B8C /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		CC7D2F3F1E2C151900E211E6 /* StackElementVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackElementVC.swift; sourceTree = "<group>"; };
 		CCB82A681E3262AF00EE25AE /* SideBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
 		CCB82A6A1E3262EF00EE25AE /* SideBarTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarTableVC.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		CCB82A711E32D30F00EE25AE /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		CCB82A731E330B0A00EE25AE /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
 		CCB82A751E330FF900EE25AE /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		CCCDF88B1E7E36B5002D0898 /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
+		CCCDF88D1E7E3A0D002D0898 /* AddEditVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEditVC.swift; sourceTree = "<group>"; };
 		CCF3C9F11E2691FC008AC253 /* iPayroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPayroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF3C9F41E2691FC008AC253 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCF3C9F61E2691FC008AC253 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +112,7 @@
 				CCB82A731E330B0A00EE25AE /* DesignableTextField.swift */,
 				CCB82A711E32D30F00EE25AE /* GradientView.swift */,
 				CCB82A751E330FF900EE25AE /* DesignableView.swift */,
+				CCCDF88B1E7E36B5002D0898 /* DesignableTextView.swift */,
 			);
 			name = CustomControls;
 			sourceTree = "<group>";
@@ -182,7 +189,9 @@
 				CC7D2F3F1E2C151900E211E6 /* StackElementVC.swift */,
 				CCB82A681E3262AF00EE25AE /* SideBar.swift */,
 				CCB82A6A1E3262EF00EE25AE /* SideBarTableVC.swift */,
-				CC4A65041E33160200DB3B8C /* ProfileViewController.swift */,
+				CC3D9E231E34632D00EC1FB6 /* HistoryTableVC.swift */,
+				CC4A65041E33160200DB3B8C /* ProfileVC.swift */,
+				CCCDF88D1E7E3A0D002D0898 /* AddEditVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -356,16 +365,19 @@
 			files = (
 				CCF3CA331E272749008AC253 /* Extensions.swift in Sources */,
 				CCF3C9F71E2691FC008AC253 /* MainViewController.swift in Sources */,
+				CCCDF88E1E7E3A0D002D0898 /* AddEditVC.swift in Sources */,
 				CCB82A6E1E32CCDA00EE25AE /* DesignableButton.swift in Sources */,
+				CCCDF88C1E7E36B5002D0898 /* DesignableTextView.swift in Sources */,
 				CCB82A761E330FF900EE25AE /* DesignableView.swift in Sources */,
 				CCB82A6B1E3262EF00EE25AE /* SideBarTableVC.swift in Sources */,
 				CCB82A691E3262AF00EE25AE /* SideBar.swift in Sources */,
-				CC4A65051E33160200DB3B8C /* ProfileViewController.swift in Sources */,
+				CC4A65051E33160200DB3B8C /* ProfileVC.swift in Sources */,
 				CCB82A701E32CDCA00EE25AE /* BounceButton.swift in Sources */,
 				CC7D2F401E2C151900E211E6 /* StackElementVC.swift in Sources */,
 				CCB82A741E330B0A00EE25AE /* DesignableTextField.swift in Sources */,
 				CCF3C9F51E2691FC008AC253 /* AppDelegate.swift in Sources */,
 				CCB82A721E32D30F00EE25AE /* GradientView.swift in Sources */,
+				CC3D9E241E34632D00EC1FB6 /* HistoryTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

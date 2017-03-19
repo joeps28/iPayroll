@@ -100,7 +100,7 @@ class SideBar: NSObject, SideBarTableViewControllerDelgate {
         isSideBarOpen = shouldOpen
         
         let gravityX:CGFloat = (shouldOpen) ? 0.5 : -0.5
-        let magnitude:CGFloat = (shouldOpen) ? 20 : -20
+        let magnitude:CGFloat = (shouldOpen) ? 30 : -30
         let boundaryX:CGFloat = (shouldOpen) ? barWidth : -barWidth - 1
         
         let gravityBehavior:UIGravityBehavior = UIGravityBehavior(items: [sideBarContainerView])
@@ -116,7 +116,7 @@ class SideBar: NSObject, SideBarTableViewControllerDelgate {
         animator.addBehavior(pushBehavior)
         
         let sideBarBehavior:UIDynamicItemBehavior = UIDynamicItemBehavior(items: [sideBarContainerView])
-        sideBarBehavior.elasticity = 0.3
+        sideBarBehavior.elasticity = 0.2
         animator.addBehavior(sideBarBehavior)
         
     }

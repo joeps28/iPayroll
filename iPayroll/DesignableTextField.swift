@@ -48,7 +48,7 @@ class DesignableTextField: UITextField {
             let width = leftPadding + 20 + rightPadding
             
             let view = UIView(frame: CGRect(x: 0, y: 0, width: width, height: 20))
-            view.addSubview(view)
+            view.addSubview(imageView)
             
             leftView = view
         }
