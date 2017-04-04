@@ -46,6 +46,7 @@ class SideBarTableViewController: UITableViewController {
         }
         
         cell!.textLabel?.text = tableData[indexPath.row]
+        cell!.textLabel?.textAlignment = NSTextAlignment.center
         
         return cell!
     }

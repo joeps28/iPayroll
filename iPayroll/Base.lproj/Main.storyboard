@@ -7,7 +7,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -28,12 +27,12 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zax-Fn-tcY" customClass="DesignableButton" customModule="iPayroll" customModuleProvider="target">
                                 <rect key="frame" x="289" y="335" width="56" height="56"/>
-                                <color key="backgroundColor" red="0.0" green="0.54901960780000003" blue="1" alpha="0.6482234589041096" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.54901960780000003" blue="1" alpha="0.70392765410958902" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="pSC-4M-4Qf"/>
                                     <constraint firstAttribute="width" constant="56" id="uuj-7r-Ty4"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="60"/>
                                 <color key="tintColor" red="0.0" green="0.54901960780000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="+">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -63,7 +62,6 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="addButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iP3-ad-VRK"/>
                                     <segue destination="4C2-I0-xCQ" kind="presentation" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="nwZ-v0-nXc"/>
                                 </connections>
                             </button>
@@ -87,22 +85,6 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Zax-Fn-tcY" secondAttribute="trailing" constant="14" id="usa-GA-Jq9"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="DP9-pm-LzM">
-                        <rightBarButtonItems>
-                            <barButtonItem image="3dots-menu" id="dVV-74-d93">
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <action selector="showMenu:" destination="BYZ-38-t0r" id="Tab-9o-GGn"/>
-                                </connections>
-                            </barButtonItem>
-                            <barButtonItem systemItem="add" id="Sgx-A9-Efx">
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </barButtonItem>
-                        </rightBarButtonItems>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="addButton" destination="Zax-Fn-tcY" id="xKi-7m-aEL"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -126,7 +108,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MGU-8x-TmI" userLabel="Summary Container View" customClass="DesignableView" customModule="iPayroll" customModuleProvider="target">
+                            <view alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MGU-8x-TmI" userLabel="Summary Container View" customClass="DesignableView" customModule="iPayroll" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="189" width="375" height="478"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="calendar-128" translatesAutoresizingMaskIntoConstraints="NO" id="KBG-bv-Ql6">
@@ -261,7 +243,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
-                                        <real key="value" value="4"/>
+                                        <real key="value" value="3"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
                                         <real key="value" value="1"/>
@@ -395,7 +377,7 @@
                                                     <subviews>
                                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Date" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="aFs-ei-bjk" customClass="DesignableTextField" customModule="iPayroll" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="0.0" width="274" height="50"/>
-                                                            <color key="backgroundColor" white="0.66666666666666663" alpha="0.80139661815068497" colorSpace="calibratedWhite"/>
+                                                            <color key="backgroundColor" red="0.77194658663067117" green="0.77194658663067117" blue="0.77194658663067117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -415,11 +397,11 @@
                                                         </textField>
                                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Location" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ip3-lM-zWv" customClass="DesignableTextField" customModule="iPayroll" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="62" width="274" height="50"/>
-                                                            <color key="backgroundColor" white="0.66666666666666663" alpha="0.80139661815068497" colorSpace="calibratedWhite"/>
+                                                            <color key="backgroundColor" red="0.77194658660000004" green="0.77194658660000004" blue="0.77194658660000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                            <textInputTraits key="textInputTraits"/>
+                                                            <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                                     <real key="value" value="8"/>
@@ -435,11 +417,11 @@
                                                         </textField>
                                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Hours" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="wzN-gN-uS6" customClass="DesignableTextField" customModule="iPayroll" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="124" width="274" height="50"/>
-                                                            <color key="backgroundColor" white="0.66666666666666663" alpha="0.80139661815068497" colorSpace="calibratedWhite"/>
+                                                            <color key="backgroundColor" red="0.77194658660000004" green="0.77194658660000004" blue="0.77194658660000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                            <textInputTraits key="textInputTraits"/>
+                                                            <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                                     <real key="value" value="8"/>
@@ -455,11 +437,11 @@
                                                         </textField>
                                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Patients Seen" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="rkQ-Iq-Tsa" customClass="DesignableTextField" customModule="iPayroll" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="186" width="274" height="50"/>
-                                                            <color key="backgroundColor" white="0.66666666666666663" alpha="0.80139661815068497" colorSpace="calibratedWhite"/>
+                                                            <color key="backgroundColor" red="0.77194658660000004" green="0.77194658660000004" blue="0.77194658660000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                            <textInputTraits key="textInputTraits"/>
+                                                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                                     <real key="value" value="8"/>
@@ -475,11 +457,11 @@
                                                         </textField>
                                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Patients with PA" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="f4i-JE-aqm" customClass="DesignableTextField" customModule="iPayroll" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="248" width="274" height="50"/>
-                                                            <color key="backgroundColor" white="0.66666666666666663" alpha="0.80139661815068497" colorSpace="calibratedWhite"/>
+                                                            <color key="backgroundColor" red="0.77194658660000004" green="0.77194658660000004" blue="0.77194658660000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                            <textInputTraits key="textInputTraits"/>
+                                                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                                     <real key="value" value="8"/>
@@ -506,7 +488,7 @@
                                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vye-6m-uY5">
                                                                     <rect key="frame" x="143" y="8" width="51" height="31"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                    <color key="onTintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                    <color key="onTintColor" red="0.099153577790000003" green="0.42519096830000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                 </switch>
                                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="holiday-icon" translatesAutoresizingMaskIntoConstraints="NO" id="zKv-zp-618">
                                                                     <rect key="frame" x="9" y="11" width="25" height="25"/>
@@ -514,7 +496,7 @@
                                                                     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 </imageView>
                                                             </subviews>
-                                                            <color key="backgroundColor" white="0.66666666666666663" alpha="0.80324272260273977" colorSpace="calibratedWhite"/>
+                                                            <color key="backgroundColor" red="0.77194658660000004" green="0.77194658660000004" blue="0.77194658660000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                                     <real key="value" value="8"/>
@@ -526,15 +508,15 @@
                                                         <constraint firstAttribute="height" constant="360" id="4Ux-dg-wwu"/>
                                                     </constraints>
                                                 </stackView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Use this field to enter enything you would like to remember!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Onx-pm-xhU" customClass="DesignableTextView" customModule="iPayroll" customModuleProvider="target">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" text="Use this field to enter enything you would like to remember!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Onx-pm-xhU" customClass="DesignableTextView" customModule="iPayroll" customModuleProvider="target">
                                                     <rect key="frame" x="50" y="372" width="274" height="80"/>
-                                                    <color key="backgroundColor" white="0.66666666666666663" alpha="0.80324272260273977" colorSpace="calibratedWhite"/>
+                                                    <color key="backgroundColor" red="0.77194658660000004" green="0.77194658660000004" blue="0.77194658660000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="80" id="R1V-15-rNh"/>
                                                     </constraints>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                             <real key="value" value="8"/>
@@ -546,7 +528,7 @@
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hjn-04-A9b" customClass="DesignableButton" customModule="iPayroll" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="0.0" width="131" height="46"/>
-                                                            <color key="backgroundColor" red="0.54591946099615341" green="0.54591946099615341" blue="0.54591946099615341" alpha="0.80120933219178081" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="backgroundColor" red="0.6063572782550366" green="0.6063572782550366" blue="0.6063572782550366" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                             <state key="normal" title="Cancel">
                                                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -568,8 +550,8 @@
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKD-CE-DxI" customClass="DesignableButton" customModule="iPayroll" customModuleProvider="target">
                                                             <rect key="frame" x="143" y="0.0" width="131" height="46"/>
-                                                            <color key="backgroundColor" white="0.66666666669999997" alpha="0.4470248288" colorSpace="calibratedWhite"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                            <color key="backgroundColor" red="0.77194658660000004" green="0.77194658660000004" blue="0.77194658660000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                                             <state key="normal" title="Save">
                                                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             </state>
@@ -594,7 +576,6 @@
                                                     </constraints>
                                                 </stackView>
                                             </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <constraints>
                                                 <constraint firstItem="pad-vg-Khl" firstAttribute="leading" secondItem="t1K-RB-vfO" secondAttribute="leading" constant="50" id="7f9-cq-eiT"/>
                                                 <constraint firstAttribute="trailing" secondItem="pad-vg-Khl" secondAttribute="trailing" constant="50" id="Bos-Uc-GtQ"/>
@@ -630,7 +611,15 @@
                         <blurEffect style="light"/>
                     </visualEffectView>
                     <connections>
+                        <outlet property="containerScrollView" destination="kVT-gR-St1" id="PaD-4J-bHo"/>
+                        <outlet property="dateTextField" destination="aFs-ei-bjk" id="egz-m3-rpc"/>
                         <outlet property="holidayIconImage" destination="zKv-zp-618" id="996-Mi-oBG"/>
+                        <outlet property="holidaySwitch" destination="vye-6m-uY5" id="b0N-eK-byi"/>
+                        <outlet property="hoursTextField" destination="wzN-gN-uS6" id="xAC-yb-nHy"/>
+                        <outlet property="locationTextField" destination="ip3-lM-zWv" id="3KX-je-9MR"/>
+                        <outlet property="notesTextView" destination="Onx-pm-xhU" id="s38-Rv-ZEH"/>
+                        <outlet property="patientsTextField" destination="rkQ-Iq-Tsa" id="yFE-Uh-zuO"/>
+                        <outlet property="patientsWithPaTextField" destination="f4i-JE-aqm" id="gYb-mD-mKJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v4W-SI-vcL" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1387,31 +1376,89 @@
             </objects>
             <point key="canvasLocation" x="1536.8" y="914.84257871064472"/>
         </scene>
-        <!--History Table View Controller-->
+        <!--History-->
         <scene sceneID="jBz-pA-9hI">
             <objects>
                 <tableViewController storyboardIdentifier="HistoryVC" id="OIt-eA-Q8j" customClass="HistoryTableViewController" customModule="iPayroll" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="zv8-GM-5ye">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" sectionHeaderHeight="28" sectionFooterHeight="28" id="zv8-GM-5ye">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="pKI-bm-lKN" style="IBUITableViewCellStyleDefault" id="2jl-0C-JwZ">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="detailDisclosureButton" indentationWidth="0.0" reuseIdentifier="WorkMonthCell" rowHeight="70" id="2jl-0C-JwZ" customClass="MonthTableViewCell" customModule="iPayroll" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2jl-0C-JwZ" id="WtJ-bV-1F7">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="308" height="69"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pKI-bm-lKN">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Month" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPa-N6-tW7">
+                                            <rect key="frame" x="74" y="30" width="100" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="Z53-Wf-iN2"/>
+                                                <constraint firstAttribute="width" constant="100" id="aSJ-Rn-VYw"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G3f-Vz-nsf">
+                                            <rect key="frame" x="16" y="9" width="50" height="50"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Folder-icon" translatesAutoresizingMaskIntoConstraints="NO" id="gaE-Ak-m8c">
+                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="50" id="ath-rD-U4t"/>
+                                                        <constraint firstAttribute="height" constant="50" id="k9d-xX-nq9"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <view alpha="0.84999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tbc-2m-CKU" customClass="DesignableView" customModule="iPayroll" customModuleProvider="target">
+                                                    <rect key="frame" x="15" y="19" width="20" height="20"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="26" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ej-hV-mOT">
+                                                            <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="12"/>
+                                                            <color key="textColor" red="0.10776688273446555" green="0.67999784817963083" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="aW9-Vj-NZa"/>
+                                                        <constraint firstAttribute="width" constant="20" id="mMm-c7-Y1X"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="gaE-Ak-m8c" firstAttribute="centerX" secondItem="G3f-Vz-nsf" secondAttribute="centerX" id="7t7-vn-7bb"/>
+                                                <constraint firstAttribute="width" constant="50" id="HFs-GG-gUZ"/>
+                                                <constraint firstItem="Tbc-2m-CKU" firstAttribute="centerY" secondItem="G3f-Vz-nsf" secondAttribute="centerY" constant="4" id="ZHi-dW-mej"/>
+                                                <constraint firstItem="gaE-Ak-m8c" firstAttribute="centerY" secondItem="G3f-Vz-nsf" secondAttribute="centerY" id="hQS-UI-E4D"/>
+                                                <constraint firstItem="Tbc-2m-CKU" firstAttribute="centerX" secondItem="G3f-Vz-nsf" secondAttribute="centerX" id="kjR-tG-egg"/>
+                                                <constraint firstAttribute="height" constant="50" id="umg-5V-kiH"/>
+                                            </constraints>
+                                        </view>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="vPa-N6-tW7" firstAttribute="leading" secondItem="G3f-Vz-nsf" secondAttribute="trailing" constant="8" id="7ML-8t-NDE"/>
+                                        <constraint firstItem="G3f-Vz-nsf" firstAttribute="leading" secondItem="WtJ-bV-1F7" secondAttribute="leadingMargin" constant="8" id="UD5-8V-OkD"/>
+                                        <constraint firstItem="G3f-Vz-nsf" firstAttribute="centerY" secondItem="WtJ-bV-1F7" secondAttribute="centerY" id="ZhD-Mz-j4D"/>
+                                        <constraint firstItem="vPa-N6-tW7" firstAttribute="centerY" secondItem="WtJ-bV-1F7" secondAttribute="centerY" constant="5" id="m0y-xa-IpU"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="count" destination="1Ej-hV-mOT" id="qXK-p1-W07"/>
+                                    <outlet property="title" destination="vPa-N6-tW7" id="YSH-y6-jKv"/>
+                                    <segue destination="azT-lz-xXr" kind="show" identifier="showWorkDays" id="zqx-ND-rgx"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -1419,7 +1466,7 @@
                             <outlet property="delegate" destination="OIt-eA-Q8j" id="zWH-NR-4xA"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="jvA-AX-mQj">
+                    <navigationItem key="navigationItem" title="History" id="jvA-AX-mQj">
                         <barButtonItem key="leftBarButtonItem" title="Close" id="f4n-Pp-FUg">
                             <connections>
                                 <action selector="dismissHistoryVC:" destination="OIt-eA-Q8j" id="2Sf-91-WyK"/>
@@ -1427,14 +1474,88 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="olC-0M-Jia">
                             <connections>
-                                <action selector="addWorkDay:" destination="OIt-eA-Q8j" id="Y1U-DT-gS7"/>
+                                <segue destination="4C2-I0-xCQ" kind="presentation" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="eBE-Rf-WdE"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rmA-NZ-9Mb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="793" y="788"/>
+            <point key="canvasLocation" x="792.79999999999995" y="787.55622188905556"/>
+        </scene>
+        <!--Work Month Table View Controller-->
+        <scene sceneID="FVu-8S-yp0">
+            <objects>
+                <tableViewController id="azT-lz-xXr" customClass="WorkMonthTableViewController" customModule="iPayroll" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="VLE-Vn-MMx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="WorkDayCell" rowHeight="70" id="2li-e5-gOB" customClass="DayTableViewCell" customModule="iPayroll" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="70"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2li-e5-gOB" id="dIO-6I-X8J">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="69"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j0E-GG-Jh1" customClass="DesignableView" customModule="iPayroll" customModuleProvider="target">
+                                            <rect key="frame" x="8" y="0.0" width="359" height="65"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVV-UK-CL7">
+                                                    <rect key="frame" x="8" y="24" width="42" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="10"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                    <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                    <real key="value" value="2"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                    <real key="value" value="1"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="shadowWidthOffset">
+                                                    <real key="value" value="1"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="shadowHeightOffset">
+                                                    <real key="value" value="1"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="j0E-GG-Jh1" firstAttribute="centerY" secondItem="dIO-6I-X8J" secondAttribute="centerY" constant="-2" id="7fd-y0-fOV"/>
+                                        <constraint firstItem="j0E-GG-Jh1" firstAttribute="centerX" secondItem="dIO-6I-X8J" secondAttribute="centerX" id="7kC-jO-emQ"/>
+                                        <constraint firstAttribute="trailing" secondItem="j0E-GG-Jh1" secondAttribute="trailing" constant="8" id="Ka0-JS-Ogl"/>
+                                        <constraint firstItem="j0E-GG-Jh1" firstAttribute="leading" secondItem="dIO-6I-X8J" secondAttribute="leading" constant="8" id="V03-Jn-HuZ"/>
+                                        <constraint firstItem="j0E-GG-Jh1" firstAttribute="top" secondItem="dIO-6I-X8J" secondAttribute="top" id="nCo-UA-ciL"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="title" destination="sVV-UK-CL7" id="htW-fB-SgH"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="azT-lz-xXr" id="kpI-E8-3Dg"/>
+                            <outlet property="delegate" destination="azT-lz-xXr" id="gNV-mo-sea"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JQV-VZ-Oi4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="792.79999999999995" y="1496.4017991004498"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hDZ-Em-b1G">
@@ -1485,12 +1606,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F5f-pw-rQj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="793" y="1552"/>
+            <point key="canvasLocation" x="36" y="788"/>
         </scene>
     </scenes>
     <resources>
-        <image name="3dots-menu" width="22" height="22"/>
         <image name="Editing-Clipboard-icon" width="512" height="512"/>
+        <image name="Folder-icon" width="512" height="512"/>
         <image name="alarm-clock-icon" width="512" height="512"/>
         <image name="bg" width="5460" height="3640"/>
         <image name="boy-22" width="44" height="44"/>
@@ -1502,4 +1623,7 @@
         <image name="profile_highlighted" width="200" height="150"/>
         <image name="stethoscope" width="256" height="256"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="eBE-Rf-WdE"/>
+    </inferredMetricsTieBreakers>
 </document>

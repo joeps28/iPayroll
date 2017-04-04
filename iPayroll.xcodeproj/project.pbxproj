@@ -9,7 +9,10 @@
 /* Begin PBXBuildFile section */
 		CC3D9E241E34632D00EC1FB6 /* HistoryTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D9E231E34632D00EC1FB6 /* HistoryTableVC.swift */; };
 		CC4A65051E33160200DB3B8C /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4A65041E33160200DB3B8C /* ProfileVC.swift */; };
+		CC5F67BE1E8F4DED00095271 /* DayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5F67BD1E8F4DEC00095271 /* DayTableViewCell.swift */; };
 		CC7D2F401E2C151900E211E6 /* StackElementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7D2F3F1E2C151900E211E6 /* StackElementVC.swift */; };
+		CC8F40461E893C13005FBE89 /* WorkYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F40451E893C13005FBE89 /* WorkYear.swift */; };
+		CC8F40481E8BE1F3005FBE89 /* WorkMonthTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F40471E8BE1F3005FBE89 /* WorkMonthTableVC.swift */; };
 		CCB82A691E3262AF00EE25AE /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB82A681E3262AF00EE25AE /* SideBar.swift */; };
 		CCB82A6B1E3262EF00EE25AE /* SideBarTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB82A6A1E3262EF00EE25AE /* SideBarTableVC.swift */; };
 		CCB82A6E1E32CCDA00EE25AE /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB82A6D1E32CCDA00EE25AE /* DesignableButton.swift */; };
@@ -19,6 +22,10 @@
 		CCB82A761E330FF900EE25AE /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB82A751E330FF900EE25AE /* DesignableView.swift */; };
 		CCCDF88C1E7E36B5002D0898 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCDF88B1E7E36B5002D0898 /* DesignableTextView.swift */; };
 		CCCDF88E1E7E3A0D002D0898 /* AddEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCDF88D1E7E3A0D002D0898 /* AddEditVC.swift */; };
+		CCCDF8901E7EFDF7002D0898 /* DateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCDF88F1E7EFDF7002D0898 /* DateFunctions.swift */; };
+		CCCDF8921E7EFED7002D0898 /* WorkDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCDF8911E7EFED7002D0898 /* WorkDay.swift */; };
+		CCE488C31E83748A0093229B /* MonthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE488C21E83748A0093229B /* MonthTableViewCell.swift */; };
+		CCE488C51E84C3760093229B /* WorkMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE488C41E84C3760093229B /* WorkMonth.swift */; };
 		CCF3C9F51E2691FC008AC253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3C9F41E2691FC008AC253 /* AppDelegate.swift */; };
 		CCF3C9F71E2691FC008AC253 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3C9F61E2691FC008AC253 /* MainViewController.swift */; };
 		CCF3C9FA1E2691FC008AC253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF3C9F81E2691FC008AC253 /* Main.storyboard */; };
@@ -50,7 +57,10 @@
 /* Begin PBXFileReference section */
 		CC3D9E231E34632D00EC1FB6 /* HistoryTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableVC.swift; sourceTree = "<group>"; };
 		CC4A65041E33160200DB3B8C /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		CC5F67BD1E8F4DEC00095271 /* DayTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayTableViewCell.swift; sourceTree = "<group>"; };
 		CC7D2F3F1E2C151900E211E6 /* StackElementVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackElementVC.swift; sourceTree = "<group>"; };
+		CC8F40451E893C13005FBE89 /* WorkYear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkYear.swift; sourceTree = "<group>"; };
+		CC8F40471E8BE1F3005FBE89 /* WorkMonthTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkMonthTableVC.swift; sourceTree = "<group>"; };
 		CCB82A681E3262AF00EE25AE /* SideBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
 		CCB82A6A1E3262EF00EE25AE /* SideBarTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarTableVC.swift; sourceTree = "<group>"; };
 		CCB82A6D1E32CCDA00EE25AE /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
@@ -60,6 +70,10 @@
 		CCB82A751E330FF900EE25AE /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		CCCDF88B1E7E36B5002D0898 /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
 		CCCDF88D1E7E3A0D002D0898 /* AddEditVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEditVC.swift; sourceTree = "<group>"; };
+		CCCDF88F1E7EFDF7002D0898 /* DateFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFunctions.swift; sourceTree = "<group>"; };
+		CCCDF8911E7EFED7002D0898 /* WorkDay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkDay.swift; sourceTree = "<group>"; };
+		CCE488C21E83748A0093229B /* MonthTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthTableViewCell.swift; sourceTree = "<group>"; };
+		CCE488C41E84C3760093229B /* WorkMonth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkMonth.swift; sourceTree = "<group>"; };
 		CCF3C9F11E2691FC008AC253 /* iPayroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPayroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF3C9F41E2691FC008AC253 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCF3C9F61E2691FC008AC253 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -186,12 +200,15 @@
 			isa = PBXGroup;
 			children = (
 				CCF3C9F61E2691FC008AC253 /* MainViewController.swift */,
-				CC7D2F3F1E2C151900E211E6 /* StackElementVC.swift */,
 				CCB82A681E3262AF00EE25AE /* SideBar.swift */,
 				CCB82A6A1E3262EF00EE25AE /* SideBarTableVC.swift */,
+				CC7D2F3F1E2C151900E211E6 /* StackElementVC.swift */,
 				CC3D9E231E34632D00EC1FB6 /* HistoryTableVC.swift */,
-				CC4A65041E33160200DB3B8C /* ProfileVC.swift */,
+				CCE488C21E83748A0093229B /* MonthTableViewCell.swift */,
+				CC8F40471E8BE1F3005FBE89 /* WorkMonthTableVC.swift */,
+				CC5F67BD1E8F4DEC00095271 /* DayTableViewCell.swift */,
 				CCCDF88D1E7E3A0D002D0898 /* AddEditVC.swift */,
+				CC4A65041E33160200DB3B8C /* ProfileVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -200,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				CCF3CA321E272749008AC253 /* Extensions.swift */,
+				CCCDF88F1E7EFDF7002D0898 /* DateFunctions.swift */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -214,6 +232,9 @@
 		CCF3CA2D1E26A3F6008AC253 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CCCDF8911E7EFED7002D0898 /* WorkDay.swift */,
+				CCE488C41E84C3760093229B /* WorkMonth.swift */,
+				CC8F40451E893C13005FBE89 /* WorkYear.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -368,15 +389,22 @@
 				CCCDF88E1E7E3A0D002D0898 /* AddEditVC.swift in Sources */,
 				CCB82A6E1E32CCDA00EE25AE /* DesignableButton.swift in Sources */,
 				CCCDF88C1E7E36B5002D0898 /* DesignableTextView.swift in Sources */,
+				CC8F40481E8BE1F3005FBE89 /* WorkMonthTableVC.swift in Sources */,
+				CC8F40461E893C13005FBE89 /* WorkYear.swift in Sources */,
+				CCCDF8901E7EFDF7002D0898 /* DateFunctions.swift in Sources */,
+				CC5F67BE1E8F4DED00095271 /* DayTableViewCell.swift in Sources */,
 				CCB82A761E330FF900EE25AE /* DesignableView.swift in Sources */,
 				CCB82A6B1E3262EF00EE25AE /* SideBarTableVC.swift in Sources */,
 				CCB82A691E3262AF00EE25AE /* SideBar.swift in Sources */,
+				CCE488C51E84C3760093229B /* WorkMonth.swift in Sources */,
 				CC4A65051E33160200DB3B8C /* ProfileVC.swift in Sources */,
+				CCE488C31E83748A0093229B /* MonthTableViewCell.swift in Sources */,
 				CCB82A701E32CDCA00EE25AE /* BounceButton.swift in Sources */,
 				CC7D2F401E2C151900E211E6 /* StackElementVC.swift in Sources */,
 				CCB82A741E330B0A00EE25AE /* DesignableTextField.swift in Sources */,
 				CCF3C9F51E2691FC008AC253 /* AppDelegate.swift in Sources */,
 				CCB82A721E32D30F00EE25AE /* GradientView.swift in Sources */,
+				CCCDF8921E7EFED7002D0898 /* WorkDay.swift in Sources */,
 				CC3D9E241E34632D00EC1FB6 /* HistoryTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

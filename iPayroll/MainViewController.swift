@@ -66,7 +66,7 @@ class MainViewController: UIViewController, SideBarDelegate, UIGestureRecognizer
                 showView(view: controllerViews[1])
                 lastViewIndex = 1
             }
-            else if touchPoint.y > (height - stackOffset + 2 * stackElementHeight) && touchPoint.y < (height - stackOffset + 3 * stackElementHeight) {
+            else if touchPoint.y > (height - stackOffset + 2 * stackElementHeight) {
                 showView(view: controllerViews[2])
                 lastViewIndex = 2
             }
@@ -181,10 +181,5 @@ class MainViewController: UIViewController, SideBarDelegate, UIGestureRecognizer
             }
         }
     }
-    
-    @IBAction func addButtonPressed(_ sender: UIButton) {
-        
-    }
-
 }
 

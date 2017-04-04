@@ -46,6 +46,4 @@ class DesignableView: GradientView {
             self.layer.shadowOffset = CGSize(width: shadowWidthOffset, height: shadowHeightOffset)
         }
     }
-
-
 }
